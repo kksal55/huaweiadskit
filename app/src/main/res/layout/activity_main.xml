@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hwads:adId="g268xgz78z"
+        hwads:bannerSize="BANNER_SIZE_360_57"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="huavei test"
+        hwads:layout_constraintBottom_toBottomOf="parent"
+        hwads:layout_constraintLeft_toLeftOf="parent"
+        hwads:layout_constraintRight_toRightOf="parent"
+        hwads:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
+
