@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout rootView = findViewById(R.id.root_view);
         rootView.addView(topBannerView);
 
+        //reklam Id olarak "testw6vs28auh3" eklediğimde reklamlar çıkıyor ama kendi oluşturduğum reklam idsinde reklamlar görünmüyor.
+        //Emulator olarak huaweinin kendi sitesindeki emulatoru kullanıyorum
+
 
 
 //        BannerView hwBannerView = findViewById(R.id.huawei_banner_view);

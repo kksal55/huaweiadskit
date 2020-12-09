@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         hwads:adId="g268xgz78z"
-        hwads:bannerSize="BANNER_SIZE_360_57"/>
+        hwads:bannerSize="BANNER_SIZE_320_50"/>
 
 
 
